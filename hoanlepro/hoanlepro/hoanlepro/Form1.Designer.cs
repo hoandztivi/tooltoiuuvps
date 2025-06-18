@@ -61,6 +61,7 @@
             this.lblSpeedDownload = new System.Windows.Forms.Label();
             this.lblSpeedUpload = new System.Windows.Forms.Label();
             this.btnConfig = new Guna.UI2.WinForms.Guna2Button();
+            this.ckbOptimization = new System.Windows.Forms.CheckBox();
             this.cbTimeZone = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -73,7 +74,6 @@
             this.ckbKhoiDongCungWindows = new System.Windows.Forms.CheckBox();
             this.timerCleanRam = new System.Windows.Forms.Timer(this.components);
             this.timerGiamCPU = new System.Windows.Forms.Timer(this.components);
-            this.ckbOptimization = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -517,6 +517,19 @@
             this.btnConfig.TabIndex = 22;
             this.btnConfig.Text = "config windows";
             // 
+            // ckbOptimization
+            // 
+            this.ckbOptimization.AutoSize = true;
+            this.ckbOptimization.Checked = true;
+            this.ckbOptimization.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.ckbOptimization.ForeColor = System.Drawing.Color.Black;
+            this.ckbOptimization.Location = new System.Drawing.Point(37, 313);
+            this.ckbOptimization.Name = "ckbOptimization";
+            this.ckbOptimization.Size = new System.Drawing.Size(247, 20);
+            this.ckbOptimization.TabIndex = 21;
+            this.ckbOptimization.Text = "windows optimization(siêu cấp tối ưu)";
+            this.ckbOptimization.UseVisualStyleBackColor = true;
+            // 
             // cbTimeZone
             // 
             this.cbTimeZone.FormattingEnabled = true;
@@ -632,19 +645,6 @@
             // 
             this.timerGiamCPU.Tick += new System.EventHandler(this.timerGiamCPU_Tick);
             // 
-            // ckbOptimization
-            // 
-            this.ckbOptimization.AutoSize = true;
-            this.ckbOptimization.Checked = true;
-            this.ckbOptimization.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbOptimization.ForeColor = System.Drawing.Color.Black;
-            this.ckbOptimization.Location = new System.Drawing.Point(37, 313);
-            this.ckbOptimization.Name = "ckbOptimization";
-            this.ckbOptimization.Size = new System.Drawing.Size(247, 20);
-            this.ckbOptimization.TabIndex = 21;
-            this.ckbOptimization.Text = "windows optimization(siêu cấp tối ưu)";
-            this.ckbOptimization.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -706,6 +706,7 @@
         private System.Windows.Forms.ComboBox cbTimeZone;
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2Button btnConfig;
+        private System.Windows.Forms.CheckBox ckbOptimization;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox7;
@@ -721,7 +722,6 @@
         private System.Windows.Forms.Label lblTrangThai;
         private Guna.UI2.WinForms.Guna2Button btnGiamCPU;
         private System.Windows.Forms.Timer timerGiamCPU;
-        private System.Windows.Forms.CheckBox ckbOptimization;
     }
 }
 
